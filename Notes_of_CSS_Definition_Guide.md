@@ -75,3 +75,11 @@ Remaining: white, black, gray, silver, red, green, blue, yellow, orange, purple.
 ### Relative Length Units
 1. `em`:  Equal to current `font-size` , e.g. If current `font-size` is 14px, then 1em = 1px.
 2. `ex`: Like `em`, the value equal to a lowercase "x". (Many user agent get "ex" by dividing "em" in half.)
+
+## Font 
+### Font Family
+1. *Serif*: Times, Georgia.
+2. *Sans-Serif*: Helvetica, Geneva, Verdana, Arial and Univers.
+3. *Monospace*: Each character is exactly the same width as others. No serif.
+4. *Cursive*: To emulate human handwriting.
+5. *Fantasy*: ...
