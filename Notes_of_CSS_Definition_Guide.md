@@ -77,9 +77,15 @@ Remaining: white, black, gray, silver, red, green, blue, yellow, orange, purple.
 2. `ex`: Like `em`, the value equal to a lowercase "x". (Many user agent get "ex" by dividing "em" in half.)
 
 ## Font 
-### Font Family
+### font-family
 1. *Serif*: Times, Georgia.
 2. *Sans-Serif*: Helvetica, Geneva, Verdana, Arial and Univers.
 3. *Monospace*: Each character is exactly the same width as others. No serif.
 4. *Cursive*: To emulate human handwriting.
 5. *Fantasy*: ...
+
+### font-weight
+Values could be: normal, bold, bolder, lighter, 100, 200, 300, 400, 500, 600, 700, 800 and 900.
+
+### font-size
+Values could be: xx-small, x-small, small, medium, large, x-large, xx-large, smaller, larger, &lt;length>, &lt;percentage>. Among these values, "medium" is default, which is usually 16px.
