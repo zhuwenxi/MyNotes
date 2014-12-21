@@ -133,3 +133,16 @@ P208
 
 ### border-style
 Values: `none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset`
+
+## Background
+
+### background-image
+`background-image: url(...)`
+
+### background-repeat
+Values: `repeat | repeat-x | repeat-y | no-repeat | inherit`
+
+### background-position
+
+### background-attachment
+Value:s: `scroll | fixed | inherit`
