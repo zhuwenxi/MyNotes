@@ -82,4 +82,48 @@ Remaining: white, black, gray, silver, red, green, blue, yellow, orange, purple.
 2. *Sans-Serif*: Helvetica, Geneva, Verdana, Arial and Univers.
 3. *Monospace*: Each character is exactly the same width as others. No serif.
 4. *Cursive*: To emulate human handwriting.
-5. *Fantasy*: ...
+5. *Fantasy*
+ 
+## Text
+### text-indent
+ Values: `<length> | <percentage> | inherit`, the value could be negative and *only apply to inline element*.
+
+### text-align
+Values: `left | center | right | justify | <string> | inherit`, *only apply to inline element* .
+
+### line-height
+Control the distance between baselines (Leading: 行距).
+Values: `<length> | <percentage> | <number> | normal | inherit`, among these values, *number* means the scaling factor, who respect to it's *font-size*.
+
+### vertical-align
+Values: `baseline | sub | super | top | text-top | middle | bottom | text-bottom | <percentage> | <length> | inherit`, *vertical-align* only applies to inline element.
+
+### word-spacing
+Values: `<length> | normal | inherit`
+
+### letter-spacing
+Values: `<length> | normal | inherit`
+
+### text-transform
+Value: `uppercase | lowercase | capitalize | none | inherit`
+
+### text-decoration
+Values: `none | underline | overline | line-through | blink | inherit`, *text-decoration* is not inherited.
+
+### text-shadow
+Values: `color length length length`
+
+### white-space
+Values: `normal | nowrap | pre | pre-wrap | pre-line | inherit`
+
+### direction
+Text direction.
+***
+
+## Box Model	
+P208
+
+1. `width` and `height` don't apply to inline non-replaced elements.
+
+### border-style
+Values: `none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset`
