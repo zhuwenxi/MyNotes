@@ -146,3 +146,41 @@ Values: `repeat | repeat-x | repeat-y | no-repeat | inherit`
 
 ### background-attachment
 Value:s: `scroll | fixed | inherit`
+
+### Nine rules of the floated element's placement.
+1. 浮动元素向左/右浮动不能超过它父元素的content。
+2. 后续的浮动元素不能覆盖之前的浮动元素，最多能“紧靠”着前一个浮动元素。
+3. 一个左浮动的元素不能和一个右浮动的元素相互覆盖，他们会显现在不同的行上。
+4. 浮动元素不能超出父元素的上界。
+5. 浮动元素的不能超过上一个浮动元素的上界。
+6. 浮动元素的上界不能超过它之前一个inline元素的上界。
+7. 左浮动元素的右边框不能超过父元素的右边框，除非它自己太宽了。
+8. 浮动元素必须被放置在它能到达的最高点（在符合其它规则的前提下）。
+9. 一个左浮动的元素必须放置在尽量左的地方（在符合规则8的前提下）
+
+### 负的margin值导致的覆盖
+inline覆盖floated, floated覆盖block。
+
+### clear
+Values: `left | right | both | none | inherit	`
+
+### position
+Values: `static | relative | absolute | fixed | inherit`
+
+### min-height, min-width, max-height & max-width
+
+### overflow
+Values: `visible | hidden | scroll | auto | inherit`
+
+### clip
+Values: `rect(top, right, bottom, left) | auto | inherit`, only applies to *absolute* position.
+
+### visibility
+Values: `visible | hidden | collapse | inherit`
+
+### absolute position
+1. absolute元素的父元素是它最近的一个position值不是static的祖先。
+### top: auto | left: auto的奇妙
+P322
+
+### z-index
