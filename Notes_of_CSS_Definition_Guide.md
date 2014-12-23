@@ -147,6 +147,13 @@ Values: `repeat | repeat-x | repeat-y | no-repeat | inherit`
 ### background-attachment
 Value:s: `scroll | fixed | inherit`
 
+## Floating and Positioning
+
+### float
+1. Values: `left | right | none | inherit`.
+2. *margins* around floated elements don't collapse.
+3. A floated element generates a block box, regardless of the kind of the element it is. You have to set a *width* for the floated element.
+
 ### Nine rules of the floated element's placement.
 1. 浮动元素向左/右浮动不能超过它父元素的content。
 2. 后续的浮动元素不能覆盖之前的浮动元素，最多能“紧靠”着前一个浮动元素。
