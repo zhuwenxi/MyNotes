@@ -145,7 +145,7 @@ Values: `repeat | repeat-x | repeat-y | no-repeat | inherit`
 ### background-position
 
 ### background-attachment
-Value:s: `scroll | fixed | inherit`
+Values: `scroll | fixed | inherit`
 
 ## Floating and Positioning
 
@@ -191,3 +191,33 @@ Values: `visible | hidden | collapse | inherit`
 P322
 
 ### z-index
+
+***
+## Table Layout
+ 
+### display
+1. `table`: define a block level table, corresponding to `<table>`
+2. `inline-table`: inline-block `<table>`.
+3. `table-row`:  `<tr>`.
+4. `table-row-group`:  `<tbody>`.
+5. `table-header-group`:  `<thead>`.
+6. `table-footer-group`:  `<tfoot>`.
+7. `table-column`:  `<col>`, will not be rendered.
+8. `table-column-group`: `<colgroup>`.
+9. `table-cell`: `<th>` and `<td>`.
+10. `table-caption`: `<caption>`
+
+### caption-side
+Values: `top | bottom`
+
+### border-collapse
+Values: `collapse | seperate | inherit`, apply to table/inline-table.
+
+### border-spacing
+horizontal & vertical spacing.
+
+### empty-cells
+Values: `show | hide | inherit`
+
+### table-layout
+Values: `auto | fixed | inherit`
